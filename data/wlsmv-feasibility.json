@@ -1,0 +1,70 @@
+{
+  "title": "RAISE-HE exact robust-WLSMV feasibility audit",
+  "updated": "2026-09-04",
+  "design": {
+    "contexts": 4,
+    "factors": 4,
+    "items": 32,
+    "response_categories": 5,
+    "total_replications": 150,
+    "replications_per_scenario": 50,
+    "effect_replications_per_scenario": 30,
+    "null_replications_per_scenario": 20,
+    "primary_interaction_beta": 0.12
+  },
+  "scenarios": [
+    {
+      "case": "Best",
+      "group_n": [250, 250, 250, 250],
+      "loading": 0.75,
+      "missing_pct": 5,
+      "icc": 0.02,
+      "convergence_pct": 100.0,
+      "inadmissible_pct_among_converged": 0.0,
+      "loading_coverage_pct": 95.3,
+      "interaction_power_pct": 100.0,
+      "interaction_power_n": 30,
+      "type1_pct": 5.0,
+      "type1_n": 20
+    },
+    {
+      "case": "Base",
+      "group_n": [280, 260, 240, 220],
+      "loading": 0.65,
+      "missing_pct": 7,
+      "icc": 0.04,
+      "convergence_pct": 100.0,
+      "inadmissible_pct_among_converged": 0.0,
+      "loading_coverage_pct": 94.4,
+      "interaction_power_pct": 83.3,
+      "interaction_power_n": 30,
+      "type1_pct": 0.0,
+      "type1_n": 20
+    },
+    {
+      "case": "Stress",
+      "group_n": [240, 225, 215, 200],
+      "loading": 0.55,
+      "missing_pct": 10,
+      "icc": 0.08,
+      "convergence_pct": 70.0,
+      "converged_n": 35,
+      "inadmissible_pct_among_converged": 0.0,
+      "loading_coverage_pct": 93.0,
+      "interaction_power_pct": 68.4,
+      "interaction_power_n": 19,
+      "type1_pct": 6.2,
+      "type1_n": 16
+    }
+  ],
+  "uncertainty": {
+    "max_power_mcse_percentage_points": 11.5,
+    "max_type1_mcse_percentage_points": 12.5
+  },
+  "interpretation": [
+    "Rates are empirical Monte Carlo estimates, not guarantees for the final CFA.",
+    "Inadmissibility is evaluated among converged solutions.",
+    "Stress-case downstream denominators include only testable estimands.",
+    "The final pilot-calibrated simulation will be rerun before preregistration."
+  ]
+}
