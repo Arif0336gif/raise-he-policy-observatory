@@ -1,0 +1,25 @@
+{
+  "title": "RAISE-HE Observatory public integrity manifest",
+  "release": "0.3",
+  "generated_on": "2026-09-05",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "data/wlsmv-feasibility.json",
+      "sha256": "717a2cfe1629358d961b9e22eadd2aee786f542a9b81586a66c0876ee6d07738"
+    },
+    {
+      "path": "data/policy-evidence-register.json",
+      "sha256": "8fc56f384bfdc2c9114ba661b2cf5b1ced863ea253b4b009215038ad29bd3634"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "sha256": "d239a5a652483878358b59f4be546d3feb3d755190079df64ede138d7aa0f468"
+    },
+    {
+      "path": "index.html",
+      "sha256": "5d30b1876ecb38ea6fbc761c48d8f41aa9c39abefca07d39a82ff0047f431e62"
+    }
+  ],
+  "note": "The manifest covers the aggregate public release. The final pilot-calibrated executable archive will receive a separate archived manifest at preregistration."
+}

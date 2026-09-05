@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RAISE-HE monogram">
+  <rect width="64" height="64" rx="13" fill="#10284c"/>
+  <path d="M14 16h17c10 0 16 5 16 13 0 5-3 9-8 11l11 10H38l-9-9h-4v9H14V16Zm11 9v8h6c3 0 5-1 5-4s-2-4-5-4h-6Z" fill="#fff"/>
+  <path d="M48 14v8M44 18h8" stroke="#53c6bb" stroke-width="3" stroke-linecap="round"/>
+</svg>

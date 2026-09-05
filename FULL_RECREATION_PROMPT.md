@@ -101,7 +101,7 @@ State prominently:
 
 ## Interaction and accessibility
 
-Useful interactions may include role filters, active-section navigation, print styling and CSV download of the exact audit. They must not calculate a readiness score.
+Useful interactions include evidence-register search/filtering, responsive navigation, active-section navigation, print styling and CSV download of the exact audit. They must not calculate a readiness score.
 
 Use semantic headings, labelled buttons, keyboard-visible focus, sufficient colour contrast, responsive tables and layouts, and `prefers-reduced-motion` where animation is added. Do not use tracking, cookies, `eval` or data submission.
 
@@ -119,3 +119,16 @@ Before delivery, verify:
 8. The page is usable on desktop and mobile without horizontal page overflow.
 9. The footer or status panel carries the current proposal-alignment date.
 
+## Release 0.3 additions
+
+- Display the four empirical contexts separately from the Netherlands and Ireland support roles.
+- Add an initial official-source register with issuer, year, source type, relevance, official URL and a “protocol candidate; not yet coded” boundary.
+- Include six source records: two EU sources and one national source for Greece, Spain, Denmark and Estonia.
+- Provide machine-readable register data without coding, scores or comparisons.
+- Show best/base/stress results as visual scenario cards while preserving the complete exact table and denominators.
+- Label the base case as the planning assumption and the stress case as the escalation boundary.
+- Add an M6/M9/M12/M14–M16 methods-review timeline.
+- Add researcher, supervisor, host, release and update metadata.
+- Add a reproducibility section that distinguishes the current aggregate release from the complete executable archive planned for preregistration.
+- Include a checksum manifest, canonical metadata, favicon, sitemap, robots file and professional 404 page.
+- Keep body text at 16 px or larger and table text at 14 px at normal browser scale.

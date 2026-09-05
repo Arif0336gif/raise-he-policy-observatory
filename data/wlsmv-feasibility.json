@@ -1,6 +1,7 @@
 {
   "title": "RAISE-HE exact robust-WLSMV feasibility audit",
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
+  "release": "0.3",
   "design": {
     "contexts": 4,
     "factors": 4,
@@ -60,6 +61,12 @@
   "uncertainty": {
     "max_power_mcse_percentage_points": 11.5,
     "max_type1_mcse_percentage_points": 12.5
+  },
+  "public_release_scope": {
+    "level": "Aggregate scenario results",
+    "estimator": "Exact robust WLSMV",
+    "executable_archive_status": "To be frozen with pilot-calibrated preregistration",
+    "integrity_note": "The aggregate release does not imply that all future CFA replications will converge or be admissible."
   },
   "interpretation": [
     "Rates are empirical Monte Carlo estimates, not guarantees for the final CFA.",

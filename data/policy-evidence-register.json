@@ -1,0 +1,75 @@
+{
+  "title": "RAISE-HE initial policy evidence register",
+  "release": "0.3",
+  "verified_on": "2026-09-05",
+  "status": "Official-source candidates pending frozen-protocol screening and dual coding",
+  "interpretation_boundary": "The register contains source metadata only. It does not contain country scores, coded findings, comparisons or rankings.",
+  "records": [
+    {
+      "id": "EU-001",
+      "jurisdiction": "European Union",
+      "year": "2024",
+      "type": "Regulation",
+      "title": "Artificial Intelligence Act",
+      "issuer": "European Parliament and Council of the European Union",
+      "relevance": "Legal and fundamental-rights boundary for responsible AI deployment.",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+      "screening_status": "Protocol candidate; not yet coded"
+    },
+    {
+      "id": "EU-002",
+      "jurisdiction": "European Union",
+      "year": "2022",
+      "type": "Guidance",
+      "title": "Ethical guidelines on the use of artificial intelligence and data in teaching and learning for educators",
+      "issuer": "European Commission",
+      "relevance": "Educator capability, ethical judgement, data awareness and human oversight.",
+      "official_url": "https://education.ec.europa.eu/document/guidelines-on-the-ethical-use-of-artificial-intelligence-and-data-in-teaching-and-learning-for-educators",
+      "screening_status": "Protocol candidate; not yet coded"
+    },
+    {
+      "id": "GR-001",
+      "jurisdiction": "Greece",
+      "year": "2020-2025",
+      "type": "Strategy",
+      "title": "Digital Transformation Bible 2020-2025",
+      "issuer": "Ministry of Digital Governance",
+      "relevance": "National digital-governance, education, training and digital-skills context.",
+      "official_url": "https://digitalstrategy.gov.gr/en/",
+      "screening_status": "Protocol candidate; not yet coded"
+    },
+    {
+      "id": "ES-001",
+      "jurisdiction": "Spain",
+      "year": "2024",
+      "type": "Strategy",
+      "title": "Artificial Intelligence Strategy 2024",
+      "issuer": "Ministry for Digital Transformation and Public Service",
+      "relevance": "Responsible AI, national capacity, talent and public-sector implementation.",
+      "official_url": "https://digital.gob.es/en/comunicacion/notas-prensa/secretaria-digitalizacion-e-inteligencia-artificial/2024/05/20240514-gobierno-aprueba-estrategia-ia-2024",
+      "screening_status": "Protocol candidate; not yet coded"
+    },
+    {
+      "id": "DK-001",
+      "jurisdiction": "Denmark",
+      "year": "2026-2029",
+      "type": "Strategy",
+      "title": "Joint Government Digital Strategy 2026-2029",
+      "issuer": "Danish Agency for Digital Government",
+      "relevance": "Responsible and ethical use of emerging technologies in public systems.",
+      "official_url": "https://en.digst.dk/strategy/the-joint-government-digital-strategy/",
+      "screening_status": "Protocol candidate; not yet coded"
+    },
+    {
+      "id": "EE-001",
+      "jurisdiction": "Estonia",
+      "year": "2021-2035",
+      "type": "Strategy",
+      "title": "Education Strategy 2021-2035",
+      "issuer": "Ministry of Education and Research",
+      "relevance": "Education-system capability, lifelong learning and technology-enabled change.",
+      "official_url": "https://www.hm.ee/en/ministry/ministry/strategic-planning-2021-2035",
+      "screening_status": "Protocol candidate; not yet coded"
+    }
+  ]
+}
