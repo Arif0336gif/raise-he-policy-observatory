@@ -9,6 +9,7 @@ Extract the supplied ZIP package first. Upload these files—not the ZIP itself�
 3. `README.md`
 4. `FULL_RECREATION_PROMPT.md`
 5. `UPLOAD_INSTRUCTIONS.md`
+6. `data/wlsmv-feasibility.json`
 
 ## Method 1: GitHub website
 
@@ -25,7 +26,7 @@ Extract the supplied ZIP package first. Upload these files—not the ZIP itself�
 ### Step 2 — Upload the files
 
 1. In the empty repository, select **uploading an existing file**, or select **Add file → Upload files**.
-2. Drag the five extracted files into the upload area.
+2. Drag the extracted files and the `data` folder into the upload area.
 3. Confirm that `index.html` is in the repository root—not inside another folder.
 4. Commit message: `Add RAISE-HE Policy Observatory`
 5. Select **Commit directly to the main branch**.
@@ -52,7 +53,7 @@ Create the empty GitHub repository first, then run the following commands inside
 
 ```bash
 git init
-git add index.html .nojekyll README.md FULL_RECREATION_PROMPT.md UPLOAD_INSTRUCTIONS.md
+git add index.html .nojekyll README.md FULL_RECREATION_PROMPT.md UPLOAD_INSTRUCTIONS.md data/wlsmv-feasibility.json
 git commit -m "Add RAISE-HE Policy Observatory"
 git branch -M main
 git remote add origin https://github.com/YOUR-GITHUB-USERNAME/raise-he-policy-observatory.git
@@ -87,7 +88,6 @@ Confirm that:
 
 Wait for the Pages deployment to finish, then use `Ctrl + F5` or open the site in a private/incognito window.
 
-### The map or controls are missing
+### The role filters or audit download are missing
 
-Upload the complete supplied `index.html`. Do not paste only the visible HTML body, because the same file also contains all CSS, JavaScript, SVG icons and map code.
-
+Upload the complete supplied `index.html`. Do not paste only the visible HTML body, because the same file also contains all CSS and JavaScript.
