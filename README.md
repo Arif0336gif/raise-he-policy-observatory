@@ -1,73 +1,65 @@
 # RAISE-HE Policy Observatory
 
-An interactive, proposal-aligned proof-of-concept for the MSCA-PF project **RAISE-HE: Responsible GenAI Integration Readiness in Higher Education**.
+A proposal-aligned implementation prototype for **RAISE-HE: Responsible GenAI Integration Readiness in Higher Education**.
 
-The Observatory follows the user journey:
+The public page demonstrates scope control, research architecture, implementation readiness and a compact exact robust-WLSMV feasibility audit. It does **not** publish participant data, country scores, institutional comparisons or rankings.
 
-**Explore → Compare → Simulate → Act**
+## Current scope
 
-## Important status
+| Context | Bounded role |
+| --- | --- |
+| Greece | Host, coordination hub and core empirical context; University of Piraeus pilot-validation workshop |
+| Spain | Core empirical context |
+| Denmark | Core empirical context |
+| Estonia | Core empirical context |
+| Netherlands | University of Twente CoDE reviews at M6/M9/M12 and methods secondment at M14–M16 only |
+| Ireland | University of Galway contextual and toolkit-transferability feedback only |
 
-- This is a **pre-award interface prototype**.
-- All displayed scores, profiles and institutions are **synthetic fixtures**.
-- No participant-level data have been collected or displayed.
-- The prototype is not a compliance certificate, causal model, country ranking or staff-appraisal system.
+The Netherlands and Ireland have no participant quota and are not additional empirical comparison contexts.
 
-## Proposal-aligned research architecture
+## Study architecture
 
-- **Core empirical countries:** Greece, Finland, the Netherlands and Spain.
-- **Poland:** policy and toolkit-transferability context.
-- **China:** WP1 desk-based documentary reflection only; no interviews, surveys, statistical comparison or identifiable-data transfer.
-- **Primary quantitative outcome:** self-reported enacted responsible GenAI practice.
-- **Explanatory construct areas:** faculty capability, professional-learning quality and perceived governance conditions.
+- Respondent-level multi-domain alignment model
+- 48 critical-incident interviews
+- Approximately 1,000 main-survey completes
+- Target 32-item core battery with four eight-item domains and five response categories
+- Robust ordinal CFA/WLSMV, measurement-invariance gates and institution-clustered inference
+- No latent context means without scalar or defensible partial invariance
+
+## Feasibility evidence
+
+The website reports the completed 150-replication exact robust-WLSMV audit:
+
+- 50 replications per best/base/stress case
+- 30 primary-effect and 20 null runs per case
+- unequal group sizes, realistic ordinal thresholds/loadings, 5–10% missingness and ICC .02–.08
+- convergence, inadmissibility among converged solutions, loading coverage, Type-I error and power for the primary capability × professional-learning interaction
+
+The published rates are empirical Monte Carlo estimates, not guarantees. The stress case is a decision boundary rather than evidence of universal feasibility.
 
 ## Repository files
 
-- `index.html` — complete website, CSS, JavaScript, synthetic fixtures and interactions.
-- `.nojekyll` — prevents GitHub Pages from processing the static site through Jekyll.
-- `FULL_RECREATION_PROMPT.md` — complete prompt for recreating or altering the Observatory with an AI coding assistant.
-- `UPLOAD_INSTRUCTIONS.md` — step-by-step GitHub and GitHub Pages instructions.
-
-## Technology
-
-The website is intentionally build-free:
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Inline SVG map and icons
-- Client-side CSV and PDF generation
-- No framework, package manager, API key or external JavaScript dependency
+- `index.html` — complete responsive website, styles and interactions
+- `data/wlsmv-feasibility.json` — machine-readable compact audit results and interpretation limits
+- `.nojekyll` — serves the repository as a static GitHub Pages site
+- `FULL_RECREATION_PROMPT.md` — current specification for rebuilding or extending the site
+- `UPLOAD_INSTRUCTIONS.md` — GitHub Pages deployment notes
 
 ## Local preview
 
-Open `index.html` directly in a browser, or run a simple local web server in the folder:
+Open `index.html` directly, or run:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
+Then visit `http://localhost:8000`.
 
-## GitHub Pages URL
+## Technology and privacy
 
-After deployment, the usual address will be:
+The site uses semantic HTML, CSS and small vanilla-JavaScript enhancements. It has no framework, external dependency, API key, tracking, cookies, form submission or personal-data collection.
 
-`https://YOUR-GITHUB-USERNAME.github.io/raise-he-policy-observatory/`
+## Public URL
 
-See `UPLOAD_INSTRUCTIONS.md` for the full process.
-
-## Safe customization
-
-The main editable datasets are near the bottom of `index.html`:
-
-- `dimensionMeta`
-- `contexts`
-- `aggregate`
-- `profiles`
-- `coverage`
-- `evidenceSources`
-- `actionTemplates()`
-
-Keep the synthetic-data notices visible until real data have been ethically collected, quality-checked and approved for publication.
+<https://arif0336gif.github.io/raise-he-policy-observatory/>
 
